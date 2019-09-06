@@ -1,0 +1,166 @@
+$rem:469/16rem;
+
+.login-wrap {
+    width: 100%;
+  .login-header {
+      width: 100%;
+      height: 60/$rem;
+      display: flex;
+      padding: 0 20/$rem;
+      align-items: center;
+      border-bottom: 1px solid #fe8259;
+      box-sizing: border-box;
+      margin-bottom: 20/$rem;
+      background-color: #fcfcfc;
+      >i {
+          color: #fe8259;
+      }
+      >p {
+          flex: 9;
+          font-size: 22/$rem;
+          color: #333;
+          text-align: center;
+      }
+  }
+  .login-input-box {
+      width: 100%;
+      height: 112/$rem;
+      background-color: #fff;
+      input {
+        width: 220/$rem;
+        height: 80%;
+        outline: 0;
+        border: 0;
+        box-sizing: border-box;
+        padding-left: 25/$rem;
+      }
+      .tel-wrap {
+          width: 100%;
+          height: 56/$rem;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #f5f5f5;
+        .tel-prefix {
+            width: 95/$rem;
+            height: 27/$rem;
+            text-align: center;
+            font-weight: 800;
+            font-size: 18/$rem;
+            border-right: 1px solid #e0e0e0;
+        }
+        .tel-input {
+            
+        }
+        >button {
+            width: 117/$rem;
+            line-height: 35/$rem;
+            text-align: center;
+            margin-left: 15/$rem;
+            outline: none;
+            border-radius: 3/$rem;
+            border: 1px solid #bbbbbb;
+            background-color: #fff;
+        }
+      }
+      .verification-wrap {
+          width: 100%;
+          height: 56/$rem;
+          display: flex;
+          align-items: center;
+          .verification-msg {
+             width: 95/$rem;
+             height: 27/$rem;
+             text-align: center;
+             font-size: 18/$rem;
+          }
+          .verification-input {
+
+          }
+      }
+  }
+  .login-bottom {
+    .login-toast {
+        line-height: 33/$rem;
+        color: #999999;
+        font-size: 16/$rem;
+        text-align: center;
+    }
+    .login-btn {
+        width: 432/$rem;
+        line-height: 50/$rem;
+        font-size: 18/$rem;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        border-radius: 5/$rem;
+        margin-left: 18/$rem;
+        background-color: #ff6633;
+    }
+    a {
+        color: #466889;
+        font-size: 16/$rem;
+        margin-left: 340/$rem;
+    }
+  }
+  .login-account {
+      width: 100%;
+      margin-top: 130/$rem;
+      .login-account-header {
+          line-height: 20/$rem;
+          padding: 0 18/$rem;
+          text-align: center;
+          position: relative;
+          .login-throw-line {
+              width: 100%;
+              height: 1px;
+              position: absolute;
+              left: 0;
+              top: 50%;
+              z-index: -2;
+              transform: translateY(-50%);
+              background-color: #d7d7d7;
+          }
+          >span {
+              color: #999;
+              width: 170/$rem;
+              height: 20/$rem; 
+              font-size: 18/$rem;
+              display: inline-block;
+              background-color: #f0f0f0;
+          }
+      }
+      .login-account-way {
+          width: 100%;
+          line-height: 105/$rem;
+          text-align: center;
+          >a {
+              width: 35px;
+              height: 35px;
+              border-radius: 5px;
+              display: inline-block;
+          }
+          .login-qq { 
+              background-image: url('../../assets/images/oauth.png');
+              background-position: 0 0;
+              background-size: 35px 107px;
+              margin-right: 96/$rem;
+          }
+          .login-weibo{
+              background-image: url('../../assets/images/oauth.png');
+              background-position: 0 -35px;
+              background-size: 35px 105px;
+          }
+      }
+  }
+  .login-copyright {
+      position: absolute;
+      width: 100%;
+      bottom: 50/$rem;
+      color: #999999;
+      font-size: 15/$rem;
+      text-align: center;
+      a {
+          color: #466889;
+      }
+  }
+}

@@ -1,0 +1,45 @@
+$rem:469/16rem;
+
+.user-classification {
+    width: 469/$rem;
+    height: 55/$rem;
+    display: flex;
+    background-color: #fff;
+    .user-all-orders,
+    .user-pay-orders,
+    .user-able-orders,
+    .user-refund-orders {
+        flex: 1;
+        line-height: 55/$rem;
+        text-align: center;
+        &.active {
+            color: #ff6633;
+            border-bottom: 2px solid #ff6633;
+        }
+    }
+}
+.user-none-orders {
+    width: 469/$rem;
+    height: 195/$rem;
+    position: absolute;
+    top: 150/$rem;
+    text-align: center;
+    font-size: 18/$rem;
+    .user-none-orders-img {
+        width: 95/$rem;
+        height: 110/$rem;
+        display: inline-block;
+        background: url('../../assets/images/下载.png') no-repeat;
+        background-size: cover;
+    }
+    p:nth-of-type(1) {
+        line-height: 35/$rem;
+      //   font-size: 20/$rem;
+        color: #999;
+    }
+    p:nth-of-type(2) {
+        line-height: 35/$rem;
+        font-size: 16/$rem;
+        color: #999;
+    }
+}

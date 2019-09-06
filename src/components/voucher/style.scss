@@ -1,0 +1,22 @@
+$rem:469/16rem;
+
+.voucher-none-orders {
+    width: 469/$rem;
+    height: 195/$rem;
+    position: absolute;
+    top: 150/$rem;
+    text-align: center;
+    font-size: 18/$rem;
+    .voucher-none-orders-img {
+        width: 110/$rem;
+        height: 110/$rem;
+        display: inline-block;
+        background: url('../../assets/images/下载\ \(1\).png') no-repeat;
+        background-size: cover;
+    }
+    p:nth-of-type(1) {
+        line-height: 35/$rem;
+      //   font-size: 20/$rem;
+        color: #999;
+    }
+}

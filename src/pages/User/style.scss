@@ -1,0 +1,43 @@
+$rem:469/16rem;
+
+.user-wrap {
+    font-size: 18/$rem;
+  .user-header {
+      width: 100%;
+      height: 65/$rem;
+      font-size: 18/$rem;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      >p {
+          width: 95/$rem;
+          line-height: 38/$rem;
+          text-align: center;
+          margin-right: 43/$rem;
+      }
+      .user-orders {
+          width: 179/$rem;
+          line-height: 38/$rem;
+          margin-right: 82/$rem;
+          border: 1px solid #ff6633;
+          >a {
+              width: 50%;
+              height: 39/$rem;;
+              text-align: center;
+              display: inline-block;
+              color: #ff6633;
+              &.active {
+                  color: #fff;
+                  background-color: #ff6633;
+              }
+          }
+      }
+      >span {
+          width: 72/$rem;
+          height: 38/$rem;
+          line-height: 38/$rem;
+          text-align: center;
+      }
+  }
+
+}
